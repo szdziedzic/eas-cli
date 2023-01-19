@@ -40,7 +40,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --global user.email "support+ci@expo.io"
-          git config --global user.name "Expo CI"
+          git config --global user.name "expo-bot"
 
           git add CHANGELOG.md
           git commit -m "update CHANGELOG.md"
